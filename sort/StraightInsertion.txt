@@ -1,0 +1,24 @@
+//直接插入排序平均时间复杂度为O(n^2)，理想情况下为O(n)，算法稳定
+	public static void straightInsertion(int[] array, int length){
+		if(length<=1){
+			return ;
+		}
+		
+		int tmp,j;
+		
+		for(int i=1; i<length; i++){
+			tmp = array[i];
+			j = i-1;
+			
+			while(j>=0 && tmp<array[j]){
+				array[j+1] = array[j];
+				j--;
+			}
+			
+			if(j>=0){
+				array[j+1] = tmp;
+			}else{
+				array[0] = tmp;
+			}
+		}
+	}
