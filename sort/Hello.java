@@ -7,6 +7,5 @@ public class Hello{
 		System.out.println("lemon");
 	}
 
-        haha
-        nihao zhongguo 
+        hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 }
