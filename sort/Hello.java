@@ -8,5 +8,5 @@ public class Hello{
 	}
 
         haha
-        haha
+        nihao zhongguo 
 }
